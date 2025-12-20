@@ -1,0 +1,7 @@
+# 核心依赖（确保跑通，无权限限制）
+akshare>=1.17.0          # 自动安装最新版AKShare（兼容接口）
+pandas==2.1.4             # 数据处理与指标计算
+yfinance==0.2.31          # 备用数据源（AKShare失败时使用）
+requests==2.31.0          # 数据请求依赖
+urllib3==1.26.16          # 兼容macOS LibreSSL，消除警告
+python-dotenv==1.0.0      # 可选：环境变量管理（无需使用，保留备用）
